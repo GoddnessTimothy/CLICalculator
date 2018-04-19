@@ -62,7 +62,6 @@ public class Main {
                 }
                 if(!stk.empty() && stk.peek() != '(') {
                    return ("Invalid expression");
-
                 }
                 else
                     stk.pop();
